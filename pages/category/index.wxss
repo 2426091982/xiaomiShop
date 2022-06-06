@@ -1,0 +1,57 @@
+/* pages/pay/index.wxss */
+page {
+  height: 100%;
+}
+.cates {
+  height: 100%;
+}
+.cates .cates_container {
+  /* less中使用calc的时候要注意 */
+  height: calc(100vh - 90rpx);
+  display: flex;
+}
+.cates .cates_container .leftMenu {
+  flex: 2;
+}
+.cates .cates_container .leftMenu .menu_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  height: 80rpx;
+}
+.cates .cates_container .leftMenu .active {
+  color: #eb4450;
+  border-left: 5rpx solid #eb4450;
+  background-color: #fbfbfb;
+}
+.cates .cates_container .rightContent {
+  flex: 5;
+}
+.cates .cates_container .rightContent .goods_group .goods_title {
+  margin: 40rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cates .cates_container .rightContent .goods_group .goods_title .delimiter {
+  color: #ccc;
+  padding: 0 30rpx;
+}
+.cates .cates_container .rightContent .goods_group .goods_title .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 40rpx;
+}
+.cates .cates_container .rightContent .goods_group .goods_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cates .cates_container .rightContent .goods_group .goods_list navigator {
+  width: 33.33%;
+  text-align: center;
+}
+.cates .cates_container .rightContent .goods_group .goods_list navigator image {
+  width: 50%;
+}

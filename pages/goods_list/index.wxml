@@ -1,0 +1,24 @@
+<view class="goods_list">
+  <SearchInput></SearchInput>
+  <Tab tabs="{{tabs}}" bindactiveChange="activeChange">
+    <block wx:if="{{tabs[0].isActive}}">
+      <view class="first_tab">
+        <navigator wx:for="{{goodsList}}" wx:key="goods_id" class="goods_item" url="/pages/goods_detail/index?goods_id={{item.goods_id}}">
+          <!-- 左侧图片 -->
+          <view class="leftImg">
+            <image mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'https://ww1.sinaimg.cn/large/007rAy9hgy1g24by9t530j30i20i2glm.jpg'}}"/>
+          </view>
+          <!-- 右侧内容 -->
+          <view class="rightInfo">
+            <!-- 名称 -->
+            <view class="infoName">{{item.goods_name}}</view>
+            <!-- 价格 -->
+            <view class="infoPrice">￥{{item.goods_price}}</view>
+          </view>
+        </navigator>
+      </view>
+    </block>
+    <block wx:if="{{tabs[1].isActive}}">2</block>
+    <block wx:if="{{tabs[2].isActive}}">3</block>
+  </Tab>
+</view>

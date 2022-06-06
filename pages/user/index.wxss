@@ -1,0 +1,122 @@
+/* pages/pay/index.wxss */
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user_info_wrap .usesr_img_wrap {
+  position: relative;
+}
+.user_info_wrap .usesr_img_wrap .user_bg {
+  height: 50vh;
+  filter: blur(10px);
+}
+.user_info_wrap .usesr_img_wrap .user_info {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.user_info_wrap .usesr_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .usesr_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  color: #666;
+  padding-bottom: 80rpx;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_content .history_wrap {
+  background-color: #fff;
+  display: flex;
+}
+.user_content .history_wrap navigator {
+  padding: 10rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.user_content .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .history_wrap navigator .his_name {
+  font-size: 24rpx;
+}
+.orders_wrap {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.orders_wrap .orders-title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.orders_wrap .order_content {
+  display: flex;
+}
+.orders_wrap .order_content navigator {
+  padding: 15rpx;
+  flex: 1;
+  text-align: center;
+}
+.orders_wrap .order_content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.orders_wrap .order_content navigator .order_name {
+  padding-top: 8rpx;
+  font-size: 24rpx;
+}
+.address_wrap {
+  font-size: 26rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.add_info_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+.add_info_wrap .app_info_item {
+  font-size: 26rpx;
+  padding: 20rpx;
+  border: 1rpx solid #f1f1f1;
+}
+.add_info_wrap .app_info_contact {
+  font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.recommend_wrap {
+  margin: 0;
+  font-size: 26rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  color: #666;
+}

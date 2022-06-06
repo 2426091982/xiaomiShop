@@ -1,0 +1,5 @@
+/* pages/pay/index.wxss */
+.btn {
+  width: 80%;
+  margin-top: 40rpx;
+}

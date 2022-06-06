@@ -1,0 +1,53 @@
+/* pages/pay/index.wxss */
+.collect_main {
+  background-color: #f3f4f6;
+  .collect_title {
+    padding: 40rpx 0;
+   .collect_tips {
+    margin-left: 25rpx;
+    padding: 15rpx;
+    border: 1rpx solid #ccc;
+    background-color: #fff;
+   }
+   .active {
+    color: var(--themeColor);
+    border-color: currentColor;
+   }
+ }
+  .collect_content {
+    .goods_item {
+      display: flex;
+      border-bottom: 1px solid #999;
+      padding: 20rpx 0;
+      background-color: #fff;
+      .leftImg {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        image {
+          width: 70%;
+        }
+      }
+      .rightInfo {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .infoName {
+          // 省略超出字符
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+        .infoPrice {
+          font-size: 32rpx;
+          color: var(--themeColor);
+        }
+      }
+    }
+ }
+}
+
+
