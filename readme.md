@@ -8,22 +8,20 @@
 
 项目展示：
 
-![](.\mdImg\首页.png)
 
-![](.\mdImg\订单页面.png)
 
-![分类页面](.\mdImg\分类页面.png)
+![](https://s1.328888.xyz/2022/06/06/Wxi4i.png)
+![](https://s1.328888.xyz/2022/06/06/WxXxR.png)
+![](https://s1.328888.xyz/2022/06/06/WxrTv.png)
+![](https://s1.328888.xyz/2022/06/06/Wx2N0.png)
+![](https://s1.328888.xyz/2022/06/06/WxAiJ.png)
+![](https://s1.328888.xyz/2022/06/06/Wxh0F.png)
+![](https://s1.328888.xyz/2022/06/06/WxXxR.png)
+![](https://s1.328888.xyz/2022/06/06/Wx4VW.png)
+![](https://s1.328888.xyz/2022/06/06/Wxqgy.png)
+![](https://s1.328888.xyz/2022/06/06/WxDtk.png)
+![](https://s1.328888.xyz/2022/06/06/Wxdad.png)
 
-![个人中心](.\mdImg\个人中心.png)
 
-![购物车](.\mdImg\购物车.png)
 
-![客服页面](.\mdImg\客服页面.png)
 
-![商品列表](.\mdImg\商品列表.png)
-
-![商品收藏](.\mdImg\商品收藏.png)
-
-![商品详情](.\mdImg\商品详情.png)
-
-![支付页面](.\mdImg\支付页面.png)
